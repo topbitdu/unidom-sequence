@@ -36,4 +36,9 @@ The migration versions start with 200008.
 ## Call the Model
 
 ```ruby
+sequence      = Unidom::Sequence::Sequence.prefix_is('12345620170101').sequentiality_coded_as('FLNO').first_or_create!
+next_sequence = sequence.increment! :serial_number
+next_sequence.serial_number # 1
+next_sequence = sequence.increment! :serial_number
+next_sequence.serial_number # 2
 ```
