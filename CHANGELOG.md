@@ -4,4 +4,4 @@
 1. Sequence model & migration (20000801000000)
 
 ## v0.2
-1. Improve the Sequence model to add the .generate! method
+1. Improve the Sequence model to add the .``generate!`` method
