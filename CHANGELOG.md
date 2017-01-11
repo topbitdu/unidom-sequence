@@ -4,7 +4,7 @@
 1. Sequence model & migration (20000801000000)
 
 ## v0.2
-1. Improve the Sequence model to add the .``generate!`` method
+1. Improved the Sequence model to add the .``generate!`` method
 
 ## v0.2.1
 1. Improve the Ruby Gem Specification to depend on [unidom-common](https://github.com/topbitdu/unidom-common) v1.8
