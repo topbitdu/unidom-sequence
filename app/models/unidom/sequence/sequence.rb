@@ -1,3 +1,4 @@
+##
 # Sequence 是序列。
 
 class Unidom::Sequence::Sequence < Unidom::Sequence::ApplicationRecord
