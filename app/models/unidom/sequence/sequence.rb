@@ -15,4 +15,4 @@ class Unidom::Sequence::Sequence < Unidom::Sequence::ApplicationRecord
     sequence.serial_number
   end
 
-end
+end unless Unidom::Common::Neglection.namespace_neglected? 'Unidom::Sequence::Sequence'
