@@ -42,3 +42,19 @@ The migration versions start with 200008.
 serial_number_1 = Unidom::Sequence::Sequence.generate! 'FLNO', '12345620170101' # 1
 serial_number_2 = Unidom::Sequence::Sequence.generate! 'FLNO', '12345620170101' # 2
 ```
+
+
+
+## Disable the Model & Migration
+
+If you only need the app components other than models, the migrations should be neglected, and the models should not be loaded.
+```ruby
+# config/initializers/unidom.rb
+Unidom::Common.configure do |options|
+
+  options[:neglected_namespaces] = %w{
+    Unidom::Sequence
+  }
+
+end
+```
