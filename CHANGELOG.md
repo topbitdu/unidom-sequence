@@ -20,4 +20,4 @@
 3. Validators RSpec examples manifest
 
 ## v0.3.1
-1. Improve the Sequence spec for the prefix_is scope
+1. Improve the Sequence spec for the ``prefix_is`` scope
