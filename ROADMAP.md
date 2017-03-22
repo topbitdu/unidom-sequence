@@ -23,4 +23,4 @@
 1. Improve the Sequence spec for the ``prefix_is`` scope
 
 ## v0.3.2
-1. Improve the Sequence spec for the .generate! method
+1. Improve the Sequence spec for the .``generate!`` method
