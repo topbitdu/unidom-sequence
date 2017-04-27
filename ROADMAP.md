@@ -24,3 +24,6 @@
 
 ## v0.3.2
 1. Improve the Sequence spec for the .``generate!`` method
+
+## v0.3.3
+1. Improve the Ruby Gem Specification to depend on [unidom-common](https://github.com/topbitdu/unidom-common) v1.10
